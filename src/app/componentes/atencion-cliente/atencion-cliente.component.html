@@ -1,0 +1,44 @@
+
+<div class="container">
+    
+   <form [formGroup]="atencionCliente">
+      
+        <ul>
+                <li>
+                        <label for="nombreCompleto" class= "form-label" class="mt-3" >Nombre Completo </label> 
+                        <input   id="nombreCompleto"type="text" class="form-control" formControlName="nombreCompleto"> 
+                </li>
+                
+                <li>
+                        <label for="telefono">Teléfono</label>
+                        <input  id="telefono"type="number" class="form-control" formControlName="telefono">
+                </li>
+                <li>    
+                        <label for="correoElectronico">Correo Electrónico</label>
+                        <input id="correoElectronico" type="email" class="form-control" formControlName="correoElectronico">
+                </li>
+                <li>
+                        <label for="dirigido">Dirigido a</label>
+                        <select id="dirigido" class="form-select" aria-label="Default select example" formControlName="dirigido">
+                                <option value="1">Contenidos</option>
+                                <option value="2">Publicidad</option>
+                                <option value="3">Sugerencias</option>
+                                <option value="4">Suscripciones digitales</option>
+                              </select>
+                </li>
+                <li>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="mt-3" id="mensaje" formControlName="mensaje"></textarea>
+                </li>
+
+                <li>    
+                        <button class="mt-4">Send</button>
+                </li>
+ 
+              </ul>            
+
+
+   </form>
+        
+
+</div>
