@@ -20,7 +20,6 @@ import { NoticiasComponent } from './componentes/noticias/noticias.component';
     AtencionClienteComponent,
     FooterComponent,
     HeaderComponent,
-    HomeComponent,
     NoticiasComponent
   ],
   imports: [
