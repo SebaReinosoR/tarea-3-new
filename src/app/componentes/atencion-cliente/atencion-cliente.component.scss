@@ -3,12 +3,26 @@
     
 }
 ul{
-    list-style-type:none;   
+    list-style-type:none;
+    position: relative;
+    right:  -14vw;
+    //background-color: aqua;
 }
-
 input{
    width: 50%;
 }
 select{
     width: 50%;
+}
+h1{
+    font-size: 1.6vw;
+    text-align: center;
+
+}
+.alert-danger{
+    width: 28vw;
+    height: 1vh;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0);
+    border: 0px;
 }

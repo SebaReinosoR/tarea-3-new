@@ -1,15 +1,22 @@
 
-<div class="imghead"><img class=img-fluid src="../../assets/1.jpg"  alt="Imagen no disponible"></div> 
+
+    
+    <div ><img class=img-fluid src="../../assets/1.jpg"  alt="Imagen no disponible"></div> 
 
 
-<ul>    
-    <li *ngFor="let noticia of listaNoticias">
-        <h2>{{noticia.titulo}}</h2>
-        <img src='../../../assets/{{noticia.img}}' alt='{{noticia.img}}'>
-        <p>Autor:{{noticia.autor}} | Fecha {{noticia.fecha}}</p>
-        <button [routerLink]="['/verMas',noticia.id]" routerLinkActive="router-link-active" >Ver más</button>
-    </li>
-</ul>
+    <div class="container">
+        <ul id=noticias>    
+            <li *ngFor="let noticia of listaNoticias">
+                <img class="img-thumbnail" src='../../../assets/{{noticia.img}}.jpg' alt='{{noticia.img}}'>
+                <h2 class= "{{noticia.color}}">{{noticia.titulo}}</h2>
+                <p>Autor:{{noticia.autor}} | Fecha {{noticia.fecha}}</p>
+                <button type="button" class="btn btn-info" [routerLink]="['/verMas',noticia.id]" routerLinkActive="router-link-active" >Ver más</button>
+            </li>
+        </ul>
+    </div>
+    
+
+
 
 
 

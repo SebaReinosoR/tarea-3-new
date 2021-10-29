@@ -1,36 +1,23 @@
 li{
     list-style: none;
-    margin-right: 80px;
-    //border: beige 2px solid;
-    //height: 40px;
+    
+    
     padding: 10px;
 }
-a{
-    color: beige;
-}
+
 ul{
     display: flex;
     position: relative;
-    top: -3px;
-    right: -300px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+ 
 }
 .gris{
     background-color: rgb(54, 54, 54);
     height: 55px;
     //align-items: center;
 }
-.container{
-    height: 400px;
-    //background-color: black;
-}
-.nav{
-    //background-color: rgba(54, 54, 54, 0);
-   // border-color: rgba(225, 226, 230, 0.678);
-   // color: rgba(225, 226, 230, 0.678);
-    padding: 7px;
-    position: relative;
-    top: -10px;
-}
+
 .btn-outline-secondary {
     color: rgba(238, 236, 238, 0.76);
     border-color: rgba(238, 236, 238, 0.76);

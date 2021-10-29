@@ -1,10 +1,24 @@
-.rojo{
-    color:red;
+
+.verde{
+    color:green;
 }
 
 .azul{
     color:blue;
 }
-.verde{
-    color:green;
+.rojodark{
+    color:brown;
+}
+.violeta{
+    color:blueviolet;
+}
+.azuldark{
+    color:rgb(18, 18, 129);
+}
+.rojo{
+    color:red;
+}
+
+#cuerpo{
+    display: flex;
 }

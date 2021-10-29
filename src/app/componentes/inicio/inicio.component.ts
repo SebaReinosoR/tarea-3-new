@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import{listaNoticia} from '../../interfaces/noticias';
+
+
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.component.html',

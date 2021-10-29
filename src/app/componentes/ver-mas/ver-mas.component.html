@@ -1,3 +1,17 @@
-<h2>{{Noticias.titulo}} || <span [ngClass]="{azul: categoria.color=='blue', rojo:categoria.color=='red',verde:categoria.color=='green'}" >{{categoria.titulo}}</span></h2>
-Autor:{{Noticias.autor}} || Fecha: {{Noticias.fecha}} 
-<p>{{Noticias.text}}</p>
+<div class="container-fluid">
+    <h2>{{Noticias.titulo}} || <span [ngClass]="{azul: categoria.color=='blue', 
+        rojo:categoria.color=='red',
+        verde:categoria.color=='green',
+        rojodark:categoria.color=='reddark',
+        violeta:categoria.color=='violet',
+        azuldark:categoria.color=='bluedark'}" >{{categoria.titulo}}</span></h2>
+        <p>Autor:{{Noticias.autor}} || Fecha: {{Noticias.fecha}} </p> 
+    <div id="cuerpo">
+        <img class="img-thumbnail" src='../../../assets/{{Noticias.img}}.jpg' alt='{{Noticias.img}}'>
+        <div class="container">
+        <p>{{Noticias.text}}</p>
+        </div>
+    </div>
+</div>
+
+

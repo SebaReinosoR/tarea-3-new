@@ -9,7 +9,6 @@ import { VerMasComponent } from './componentes/ver-mas/ver-mas.component';
 import { AtencionClienteComponent } from './componentes/atencion-cliente/atencion-cliente.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HeaderComponent } from './componentes/header/header.component';
-import { HomeComponent } from './componentes/home/home.component';
 import { NoticiasComponent } from './componentes/noticias/noticias.component';
 
 @NgModule({

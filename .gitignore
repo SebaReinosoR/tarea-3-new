@@ -43,3 +43,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+*.scss
+src/app/componentes/atencion-cliente/atencion-cliente.component.ts

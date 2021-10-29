@@ -11,17 +11,33 @@ export let listaCategorias: Array<Categoria>=[
 {
     id:1,
     titulo:"Entretenimiento",
-    color:"blue"
+    color:"green"
 },
 {
     id:2,
-    titulo:"Notica",
-    color:"red"
+    titulo:"Mundo",
+    color:"blue"
 },
 {
     id:3,
     titulo:"Deporte",
-    color:"green"
+    color:"reddark"
+},
+{
+    id:4,
+    titulo:"Economía",
+    color:"violet"
+},
+{
+    id:5,
+    titulo:"Salud",
+    color:"bluedark"
+},
+{
+    id:6,
+    titulo:"Tecnólogia",
+    color:"red"
 }
+
 
 ];
